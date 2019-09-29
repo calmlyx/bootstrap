@@ -1,0 +1,202 @@
+/*字体图标部分*/
+@font-face {
+    font-family: 'iconfont';
+    src: url('../fonts/iconfont.eot');
+    src: url('../fonts/iconfont.eot?#iefix') format('embedded-opentype'),
+    url('../fonts/iconfont.woff2') format('woff2'),
+    url('../fonts/iconfont.woff') format('woff'),
+    url('../fonts/iconfont.ttf') format('truetype'),
+    url('../fonts/iconfont.svg#iconfont') format('svg');
+}
+.nav-iconfont {
+    font-family: "iconfont" !important;
+    font-size: 16px;
+    font-style: normal;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+/*公共*/
+ul,li{
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+a{
+    text-decoration: none;
+}
+/*导航栏部分*/
+.navbar{
+    background: #000;
+}
+.navbar-form input[type="text"]{
+    border: none;
+    border-radius: 0;
+}
+.navbar-form button{
+    background: none;
+    border: none;
+    color: white;
+    outline:none
+}
+.navbar-form button:hover{
+    background: none;
+    color: white;
+}
+.navbar-form button:focus{
+    outline:none
+}
+/*Banner部分*/
+.bord-banner{
+    position: relative;
+}
+.bord-banner .bord-details h3{
+    color: #000;
+    font-size: 58px;
+    font-weight: bold;
+}
+.bord-banner .bord-details .btn1{
+    background: #000;
+    border: none;
+    color: white;
+    border-radius: 0;
+    position: absolute;
+    right: 0;
+    bottom: 5%;
+}
+.bord-banner .bord-details .btn2{
+    background: #000;
+    border: none;
+    color: white;
+    border-radius: 0;
+}
+.bord-banner .bord-details{
+    width: 400px;
+    position: absolute;
+    left: 50%;
+    top: 60%;
+    transform: translate(-50%,-50%);
+}
+/*产品部分*/
+.product{
+    margin-top: 50px;
+}
+.product h1{
+    font-weight: bold;
+}
+.snowboard{
+    height: 490px;
+    overflow: hidden;
+}
+.rotating-slider ul.slides li{
+    position: relative;
+}
+.slides-content{
+    width: 200px;
+    height: 100px;
+    background: rgba(50,50,50,0.5);
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+.slides-content h3{
+    color: white;
+}
+.rotating-slider ul.slides li:nth-of-type(1){background: url(../img/board1.png) no-repeat;background-position: center;background-color:wheat;}
+.rotating-slider ul.slides li:nth-of-type(2){background: url(../img/board2.png) no-repeat;background-position: center;background-color:#ECF0F1;}
+.rotating-slider ul.slides li:nth-of-type(3){background: url(../img/board3.png) no-repeat;background-position: center;background-color:lemonchiffon;}
+.rotating-slider ul.slides li:nth-of-type(4){background: url(../img/board4.png) no-repeat;background-position: center;background-color:lightcyan;}
+.rotating-slider ul.slides li:nth-of-type(5){background: url(../img/board5.png) no-repeat;background-position: center;background-color:wheat;}
+.rotating-slider ul.slides li:nth-of-type(6){background: url(../img/board6.png) no-repeat;background-position: center;background-color:lightgrey;}
+
+.snowboard-sm-thumbnail>img{
+    height: 200px;
+}
+/*公司部分*/
+.company{
+    margin-top: 50px;
+    height: 955px;
+    background: url("../img/companyImg.png") no-repeat center;
+    color: white;
+}
+.company .row1{
+    width: 600px;
+    margin-top: 50px;
+}
+.company .row{
+    padding: 20px;
+}
+/*产品特点部分*/
+.product-icon{
+    font-size: 40px;
+}
+.features-thum{
+    border: none;
+}
+.features-thum p{
+    width: 200px;
+    text-align: center;
+    margin: 0 auto;
+}
+/*   */
+footer{
+    /*height: 100%;*/
+    background: #000;
+    color: white;
+    margin-top: 50px;
+}
+footer a{
+    color: white;
+}
+footer a:hover{
+    color: white;
+}
+.footer-col-md{
+    margin-top: 80px;
+}
+.footer-form{
+    position: relative;
+}
+.footer-form button{
+    width: 20%;
+    height: 98%;
+    border: none;
+    border-radius: 0;
+    padding: 0;
+    margin: 0;
+    position: absolute;
+    right: 1%;
+    z-index: 100;
+    color: #000;
+    font-weight: bold;
+}
+.footer-col-md>ul{
+    margin-top: 35px;
+}
+.footer-col-md>ul>li{
+    margin: 15px 0;
+}
+.socialTool>a{
+    display: inline-block;
+    margin: 45px 8px;
+}
+.copy{
+    position: relative;
+}
+.copy>.row>div{
+    position: absolute;
+}
+.copy>.row>.left{
+    left: 0;
+}
+.copy>.row>.right{
+    right: 0;
+}
+.head{
+
+}
+.fastbannerform__country{
+}
+.select2-selection__rendered{
+    text-align: center;
+}
